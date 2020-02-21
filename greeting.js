@@ -21,7 +21,7 @@ setTimeout(() => {
         startDate: new Date('2020-02-20'),
         endDate: new Date('2021-02-20'),
         every: 1000,
-        limit: 100,
+        limit: 50,
       },
     },
   )

@@ -21,3 +21,7 @@ open http://localhost:3000/monitor
 - Eliminates the need to use RabbitMQ for Spark.
 - Jobs can be created within Spark (e.g., service after hook).
 - 100k jobs only takes up around 30MB of memory in Redis.
+
+### Negatives
+
+- Jobs are not retried until the queue is drained (v4 make remedy this)

@@ -16,11 +16,17 @@ queue.on('failed', function(job, error) {
   console.error(error)
 })
 
+queue.on('drained', function() {
+  console.log('Plus2 drained')
+})
+
 function getRandomInt(max) {
   return Math.floor(Math.random() * Math.floor(max))
 }
 
 setTimeout(() => {
+  queue.add({ number: 13 })
+
   for (let i = 0; i < 1000; i++) {
     queue.add({ number: getRandomInt(1000) })
   }
