@@ -21,7 +21,7 @@ function getRandomInt(max) {
 }
 
 setTimeout(() => {
-  for (let i = 0; i < 100; i++) {
+  for (let i = 0; i < 1000; i++) {
     queue.add({ number: getRandomInt(1000) })
   }
 }, 500)

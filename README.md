@@ -6,7 +6,7 @@
 npm install
 node monitor.js
 ```
-open http://localhost:3000
+open http://localhost:3000/monitor
 
 ### Positives
 
