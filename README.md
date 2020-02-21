@@ -24,4 +24,4 @@ open http://localhost:3000/monitor
 
 ### Negatives
 
-- Jobs are not retried until the queue is drained (v4 make remedy this)
+- Jobs are not retried until the queue is drained (v4 may remedy this)
