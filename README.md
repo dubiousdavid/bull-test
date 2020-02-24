@@ -5,8 +5,18 @@
 ```bash
 npm install
 node monitor.js
+node process.js
 ```
+
 open http://localhost:3000/monitor
+
+Fire off one or more producers:
+
+```bash
+node greeting.producer.js
+node plus2.producer.js
+node mail.producer.js
+```
 
 ### Positives
 
