@@ -25,3 +25,8 @@ open http://localhost:3000/monitor
 ### Negatives
 
 - Jobs are not retried until the queue is drained (v4 may remedy this)
+
+### Tools
+
+* Bull Board - https://github.com/vcapretz/bull-board
+* Bull REPL - https://github.com/darky/bull-repl

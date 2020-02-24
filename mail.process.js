@@ -13,7 +13,6 @@ module.exports = async job => {
     // Simulate sending an email
     await Bluebird.delay(5000)
     let progress = _.floor(((index + 1) / numEmails) * 100)
-    console.log('Progress', progress);
     job.progress(progress)
   })
 }
