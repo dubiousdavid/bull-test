@@ -5,10 +5,6 @@ module.exports = {
     duration: 1000,
   },
   defaultJobOptions: {
-    backoff: {
-      type: 'fixed',
-      delay: 1000,
-    },
     // Attempt up to 2 times.
     attempts: 2,
     // Timeout the job after 500ms

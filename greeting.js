@@ -13,7 +13,7 @@ setTimeout(() => {
   queue.add({ name: 'Frank' })
   // Repeat every minute, up to 10 times
   queue.add({ name: 'Sunshine' }, { repeat: { cron: '* * * * *', limit: 10 } })
-  // Repeat every second, up to 100 times, starting 2/20/2020, and ending on 2/20/2021
+  // Repeat every second, up to 50 times, starting 2/20/2020, and ending on 2/20/2021
   queue.add(
     { name: 'World' },
     {
