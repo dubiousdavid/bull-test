@@ -1,7 +1,7 @@
 let Bluebird = require('bluebird')
 
 module.exports = async job => {
-  console.log(`Processing: ${job.data.number}`)
+  job.log(`Processing number: ${job.data.number}`)
 
   await Bluebird.delay(100)
 
